@@ -7,6 +7,19 @@ body {
     background-color: #e0e7ff; /* Background color */
 }
 
+/* TODO: Add styles for labels, inputs, buttons, and output text */
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #4a4a4a; /* Header color */
+}
+
+label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
 .container {
     text-align: center;
     padding: 30px;
@@ -17,11 +30,39 @@ body {
     max-width: 400px;
 }
 
-/* TODO: Add styles for labels, inputs, buttons, and output text */
-h1 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+input [type="number"] {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+input [type="checkbox"] {
+    margin-right: 10px;
+    display: inline-block;
+}
+button {
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #45A049;
+}
+passwordOutput {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    word-break: break-word;
+    color: #333;
 }
 
 /* Add more styles here as needed */
